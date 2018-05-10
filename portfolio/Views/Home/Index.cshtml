@@ -1,0 +1,364 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+<div class="row">
+    <div class="pimg1" id="home">
+        <div class="ptext">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+                My Portfolio
+
+            </span>
+            @*<p>
+                    Phone No: 507-351-6609 | Email: niraj.gupta@mnsu.edu | Mankato, MN 56001<br />
+                    www.linkedin.com/in/niraj-gupta-45096186
+                </p>*@
+        </div>
+    </div>
+
+
+
+
+    @*<section class="section section-light" >
+            <h2 class="project-title">Section One</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>*@
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="aboutme">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center"><em>I love technology</em></p>
+
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Niraj Gupta</b></p><br>
+                <img src="../img/profile-pic2.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>
+                    My interaction with computers started as a hobby, may be around late 90s when having a desktop at your home
+                    in Country like Nepal was not very common, not to forget the internet. But I never realized when this hobby turned into passion.
+                    Among the diverse fecets of computer science and Information Technology, I have always enjoyed learning tools and technologies to
+                    develop applications and work with data to solve problems and create meaningful information.
+                    <br /><br />
+                    So, I decided to join bachelor's degree in Information Management and completed it in 2013
+                    then I took some time and worked as a software developer role for 2 years.
+                    This gave me opportunity to get hands on experience of developing applications and working database systems in a agile environment
+                    with industry best practices.
+                    <br /><br />
+                    Now, I am pursuing Master's degree in Information Technology, expecting to graduate in Summer 2018. My journey so far has been exciting
+                    for me and I have learnt so much along the way.
+                    <br /><br />
+                    I wanted a medium where I could present myself and my works. Hence, I created this portfolio as a way of doing that.
+                    If still interested to learn more about me, please take your time to explore this website and feel free to contact me.
+                </p>
+            </div>
+        </div>
+
+
+        <p class="w3-large w3-center w3-padding-16 section-dark">My competencies are in:</p>
+        <div class="w3-row">
+            <div class="w3-third w3-container">
+                <h3>Web Development</h3>
+                <ul class="skills-bar-container">
+                    <label>HTML5 / CSS3</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-htmlcss"></span>
+                    </li>
+
+                    <label>JavaScript / jQuery / Ajax</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-jsjq"></span>
+                    </li>
+
+                    <label>Django / Flask</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-django"></span>
+                    </li>
+                    <label>ASP.NET</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-asp"></span>
+                    </li>
+                    <label>MVC</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-mvc"></span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="w3-third w3-container">
+                <h3>Programming</h3>
+                <ul class="skills-bar-container">
+                    <label>Python</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-java"></span>
+                    </li>
+
+                    <label>C#</label>
+                    <span class="percent" id="angular-pourcent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-csharp"></span>
+                    </li>
+
+                    <label>SQL / T-SQL / Pl-SQL</label>
+                    <span class="percent" id="angular-pourcent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-sql"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-container">
+                <h3>Data Engineering and Visualization</h3>
+                <ul class="skills-bar-container">
+                    <label>SSIS / SSAS / SSRS</label>
+                    <span class="percent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-java"></span>
+                    </li>
+
+                    <label>D3.js</label>
+                    <span class="percent" id="angular-pourcent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-csharp"></span>
+                    </li>
+
+                    <label>Tableau</label>
+                    <span class="percent" id="angular-pourcent"></span>
+                    <li>
+                        <span class="progressbar progressblue" id="progress-sql"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pimg2" id="workexperience">
+        <div class="ptext">
+            <span class="border trans">
+                Work Experience
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+
+        @*<h2 class="project-title">Section Two</h2>*@
+        <div class="container">
+            <h3 class="w3-center">MY WORK EXPERIENCE</h3>
+            <p class="w3-center"><em>Below are my professional work experiences.</em></p><br>
+            <h3 class="header1">GRADUATE ASSISTANT</h3>
+            <h4 class="header1">DEPARTMENT OF GOVERNMENT, MINNESOTA STATE UNIVERSITY, MANKATO</h4>
+            <h4 class="header1">JANUARY 2017 - PRESENT</h4>
+            <ul class="header-time">
+                <li>Assist to proctor exams.</li>
+                <li>Perform website administration tasks for department such as editing pages, design, content management.</li>
+                <li>
+                    Assist faculty in research work related to data analysis by writing program to process large amount of
+                    data (1 Terabyte) using python and SQL.
+                </li>
+                <li>
+                    Develop program in python to perform tasks such as extraction (of data from multiple big json files),
+                    transformation (format and convert extracted data before loading into sql database)
+                    and loading (load the data into sql database).
+                </li>
+                <li>Develop NLP techniques to tokenize words from text in chunks and generate top 250 words from each chunk.</li>
+                <li>Develop mechanism to generate top 250 words from the entire chunks.</li>
+                <li>
+                    Research on techniques to implement chunking of data like Lazy generators to avoid running out of memory due to
+                    resource limitations on memory.
+                </li>
+                <li>Create documentation of implemented codes for faculty.</li>
+            </ul>
+
+            <h3 class="header1">QUALITY ASSURANCE ANALYST</h3>
+            <h4 class="header1">AMNIL TECHNOLOGIES PVT. LTD, LALITPUR, NEPAL.</h4>
+            <h4 class="header1">AUGUST 2013- AUGUST 2015</h4>
+            <ul class="header-time">
+                <li>Analyzed and tested web applications to determine bugs and provide assistance in solving issues.</li>
+                <li>Reviewed project requirements to uncover bugs and resolve issues within a timely manner.</li>
+                <li>Provided support and training to the clients as required.</li>
+                <li>Researched new tools and technologies that could be used by the quality assurance team.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="pimg4" id="education">
+        <div class="ptext">
+            <span class="border trans">
+                Education
+            </span>
+
+        </div>
+    </div>
+
+    <section class="section section-dark">
+
+        <div class="row">
+            <h3 class="w3-center">MY EDUCATION</h3>
+            <p class="w3-center"><em>Here are brief description of my education with some relevant courseworks.</em></p><br>
+            <div class="col-sm-6 ">
+                <div class="head">
+                    <a href="https://mankato.mnsu.edu/"> <img src="../img/mnsu.png" alt="Alternate Text" height="100" width="100" /> </a>
+                    <h4>MASTER OF SCIENCE IN INFORMATION TECHNOLOGY</h4>
+                    <h4>MINNESOTA STATE UNIVERSITY, MANKATO</h4>
+                    <p>Expected completion date: 07/2018 </p>
+                    <p>
+                        Relevant coursework: Database Management Systems II, Advanced Database Systems,
+                        Big Data Systems, Software Engineering, Software Engineering Project
+                    </p>
+                    <p>GPA 3.76/4.00</p>
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="head">
+                    <a href="http://tribhuvan-university.edu.np/"><img src="../img/tu.png" alt="Alternate Text" height="100" width="100" /></a>
+                    <h4>BACHELOR'S DEGREE IN INFORMATION MANAGEMENT</h4>
+                    <h4>TRIBHUVAN UNIVERSITY, NEPAL</h4>
+                    <p>Completion date: 10/2013</p>
+                    <p>
+                        Relevant coursework: Software project management, Statistics, Web technology,
+                        Database Management System, Java Programming, Object Oriented Programming
+                    </p>
+                    <p>GPA 3.17/4.00</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="pimg3" id="portfolio">
+        <div class="ptext">
+            <span class="border trans">
+                Projects
+            </span>
+        </div>
+    </div>
+
+
+    <section class="section section-dark">
+
+        <div class="row">
+            <h3 class="w3-center">MY WORK</h3>
+            <p class="w3-center"><em>Here are some of my projects.<br> Click on the images to read in detail about the project</em></p><br>
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/billsTracker.png" alt="Alternate Text" width="350" />
+                <label>BillsTracker</label>
+                <p>
+                    BillsTracker is a web app developed with purpose of providing users a platform where they can keep track group
+                    shared bills and monetary owings among groups.
+                    <span class="readmore">Read More...</span>
+                    <div class="message">
+                        Upon joining the app, users can create or join multiple groups.
+                        Users can specify number of people to split a bill with while recording a bill. They are provided with dashboard
+                        where they can view the bill, their owings, expenses, and more. App has enforced rules such as a bill can be only
+                        deleted by the person who owns the group but can be edited by who recorded the bill, User can only leave a group if
+                        he/she has cleared all the bill in the group, group will only be deleted if all the users leaves the group
+                        and the app handles this automatically.
+
+                        Note: Apart from features mentioned above, the motive behind this application is to implement Optical Character Recognition(OCR)
+                        to scan receipts and automatically record the bill for the user by utilizing Tesseract which an open source OCR library.
+                        This feature is not achieved yet because the idea was to implement develop a mobile interface to take picture of the reciepts
+                        and send the image to backend via REST API implementation where the receipt would be processed at the backend and the bill would
+                        be recorded by the app for the user. The major setback was the underestimation of time for given scopes, manpower limitation.
+                        I am continuing to work on the project to implement this feature and will push the app on git hub as well as update the live application
+                        once I acheive it.
+                        <br />
+                        Meanwhile, if you wish to tour the app, here is the link: <a href="https://billstracker.herokuapp.com/">BillsTracker</a>
+                        <br />
+                        Technologies used: Flask, Angular JS, Bootstrap, HTML, AJAX, JQuery, MySQL, D3.js
+                    </div>
+                </p>
+            </div>
+
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/mortgageCalculator.png" alt="Alternate Text" width="350" />
+                <label>Mortgage Calculator</label>
+                <p>
+                    MortgageCalculator is a web application developed using Django framework and sqlite3 which
+                    can be used make mortgage calculations.
+                    <span class="readmore2">Read More...</span>
+                    <div class="message2">
+                        This application was developed as part of IT 680 -
+                        Software Engineering Project coursework with a time frame of 4 weeks.
+                    </div>
+                </p>
+            </div>
+
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/TwitterStreaming.png" alt="Alternate Text" width="350" />
+                <label>Data Processing</label>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/dataviz.png" alt="Alternate Text" width="350" />
+                <label>Data Visualization</label>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                </p>
+            </div>
+
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/mortgageCalculator.png" alt="Alternate Text" width="350" />
+                <label>Mortgage Calculator</label>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                </p>
+            </div>
+
+            <div class="col-sm-3 sec3-img">
+                <img src="../img/TwitterStreaming.png" alt="Alternate Text" width="350" />
+                <label>Data Processing</label>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="pimg5">
+        <div class="ptext">
+            @*<span class="border">
+                    Traversy Media
+                </span>*@
+        </div>
+    </div>
+</div>
